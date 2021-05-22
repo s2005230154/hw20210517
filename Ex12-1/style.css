@@ -1,0 +1,282 @@
+body{
+    padding: 0;
+    margin:auto 0;
+}
+
+.flex{
+    width: 1300px;
+    height: 280vh;
+    margin-left: 220px;
+    overflow: hidden;
+}
+
+.head h1{
+    width: 180px;
+    height: 54px;
+}
+
+.head{
+    display: flex;
+    
+}
+
+.head p{
+    width: 204px;
+    line-height: 18px;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.head ul{
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+.head ul li{
+    display: inline-block;
+    width: 56px;
+    line-height: 22px;
+}
+
+.head ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    font-family: PingFangSC-Regular;
+}
+
+.head ul li a:hover{
+    color: #20BD9A;
+}
+
+.photo{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-content:flex-start;
+}
+
+.photo-1{
+    
+    width: 560px;
+    height: 270px;
+}
+
+.photo-2{
+    width: 264px;
+    height: 184px;
+}
+
+.photo-3{
+    width: 264px;
+    height: 184px;
+    margin-left: 15px;
+}
+
+.photo div{
+    height: 270px;
+    margin: 10px;
+    position: relative;
+    border: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.20);
+}
+
+.photo .more{
+    position: relative;
+    width: 264px;
+    height: 270px;
+    background-image: linear-gradient(180deg, #34E3BC 0%, #15AF7A 98%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+}
+
+.photo div p{
+    
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.photo div .span-1{
+    position: absolute;
+    text-align: center;
+    margin-top: 144px;
+    width: 74px;
+    height: 40px;
+    opacity: 0.6;
+    background: #1C1F21;
+}
+
+.photo div .span-2{
+    position: absolute;
+    margin-top: 189px;
+    width: 560px;
+    height: 80px;
+    opacity: 0.55;
+    background: #1C1F21;
+}
+
+.photo div .span-2 p{
+    width: 350px;
+    height: 80px;
+    padding: 10px 10px 0 30px;
+}
+.photo div .span-3{
+    position: absolute;
+    margin-top: 189px;
+}
+
+.photo div .span-3 p{
+    font-size: 14px;
+    color: #1C1F21;
+    line-height: 22px;
+    padding: 10px 10px 0 10px;
+}
+
+.photo .more .p-1{
+    margin-top: 30px;
+    position: absolute;
+    width: 236px;
+    height: 44px;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 22px;
+}
+
+.photo .more .p-2{
+    margin-top: 50px;
+    position: absolute;
+    width: 236px;
+    height: 44px;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 22px;
+}
+.photo .more .p-3{
+    margin-top: 200px;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 22px;
+}
+
+
+
+
+
+
+.foot-photo{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    width: 1366px;
+    height: 450px;
+}
+
+.foot-photo .img-1{
+    position: relative;
+    width: 364px;
+    height: 270px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.20);
+}
+
+.foot-photo div{
+    margin: 10px;
+    width: 364px;
+    height: 120px;
+    border: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.20)
+}
+
+.foot-photo .img-1 span{
+    font-family: PingFangSC-Regular;
+    position: absolute;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+    padding: 10px;
+    margin-top: 135px;
+    width: 344px;
+    height: 94px;
+    padding-top: 30px;
+}
+
+.foot-photo .img-1 .text-2{
+    position: absolute;
+    opacity: 0.5;
+    background: #1C1F21;
+}
+.foot-photo .img-1 .text-1{
+    width: 56px;
+    height: 22px;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 200px;
+    
+}
+.foot-photo .img-1 .text-3{
+    color: #36DFBA;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-left: 280px;
+}
+
+.foot-photo .img-1 .text-4{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-left: 305px;
+}
+
+.foot-photo .img-2 span{
+    position: absolute;
+    margin:30px 20px 0px 140px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 22px;
+    overflow: hidden;
+    width: 208px;
+    height: 66px;
+}
+
+.foot-photo .img-3 {
+    position: relative;
+    width: 364px;
+    height: 260px;
+    background-image: linear-gradient(180deg, #FF6374 1%, #FF7368 98%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+}
+
+.foot-photo .img-3 .t-1{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    line-height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.foot-photo .img-3 .t-2{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.foot-photo .img-3 .t-3{
+    position: absolute;
+    margin-left:40px;
+    margin-top: 180px;
+    color: #FFFFFF;
+    line-height: 22px;
+    font-size: 14px;
+}
